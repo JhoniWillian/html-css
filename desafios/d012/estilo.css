@@ -18,7 +18,7 @@
 
 html,body {
     font-family: var(--fonte1);
-    min-height: 100vh;
+    min-height: 10vh;
     background-color: darkgray;
 }
 
@@ -90,6 +90,10 @@ section#img01 {
 }
 section#img02 {
     background-image: url(imagens/background002.jpg);
+}
+
+section#shadow-host-companion {
+    padding: 0px;
 }
 
 footer {
