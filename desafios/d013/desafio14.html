@@ -29,15 +29,28 @@
             
         }
 
-        tr.media {
+        th.media {
             background-color: gray;
             text-align: left;
+            color: white;
+        }
+
+        td.media {
+            background-color: gray;
+            text-align: center;
             color: white;
         }
     </style>
 </head>
 <body>
     <Table>
+        <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        </colgroup>
         <thead>
             <tr>
                 <th rowspan="2n" scope="col">Área</th>
@@ -77,9 +90,9 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <tr class="media">
-                <th colspan="4n" scope="row">Média de Exatas</th>
-                <th style="text-align: center;" >0.0</th>
+            <tr>
+                <th colspan="4n" scope="row" class="media">Média de Exatas</th>
+                <td class="media">0.0</td>
             </tr>
             <tr>
                 <th rowspan="2n" scope="rowgroup">Humanas</th>
@@ -94,9 +107,9 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <tr class="media">
-                <th colspan="4n" scope="row">Média de Humanas</th>
-                <th style="text-align: center;">0.0</th>
+            <tr >
+                <th colspan="4n" scope="row" class="media">Média de Humanas</th>
+                <td class="media">0.0</td>
             </tr>
         </tbody>
     </Table>
